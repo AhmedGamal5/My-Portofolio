@@ -1,6 +1,5 @@
 import "./App.css";
 
-
 // components
 
 import About from "./components/about/About";
@@ -13,10 +12,9 @@ import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import Review from "./components/reviews/Review";
 
-
 function App() {
   return (
-    <div className="App" >
+    <div className="App">
       <>
         <Header />
         <Nav />

@@ -1,12 +1,15 @@
 import React from "react";
 import "./Portfolio.css";
 
-import img1 from '../../pic/amazone.PNG';
-import img2 from '../../pic/Skin.PNG';
-import img3 from '../../pic/Netflix.PNG';
-import img4 from '../../pic/shiloh.PNG';
-import img5 from '../../pic/Dibruno.PNG';
-import img6 from '../../pic/Back1.PNG';
+import img1 from "../../pic/amazone.PNG";
+import img2 from "../../pic/Skin.PNG";
+import img3 from "../../pic/login-auth-project-2.jpg";
+import img4 from "../../pic/Netflix.PNG";
+import img5 from "../../pic/DOM-Bankist.jpg";
+import img6 from "../../pic/Dibruno.PNG";
+import img7 from "../../pic/Back1.PNG";
+import img8 from "../../pic/bankist-project.jpg";
+import img9 from "../../pic/mapty-project.jpg";
 
 const data = [
   {
@@ -26,65 +29,94 @@ const data = [
   {
     id: 3,
     image: img3,
-    title: "Netflix-clone-website",
-    github: "https://github.com/AhmedGamal5/Netflixclone",
-    demo: "https://netflixclone-eb6w.vercel.app/",
-    note:'* Try to open it from a browser other than Google Chrome.'
+    title: "Alogin-Auth-Backend-Project",
+    github: "https://github.com/AhmedGamal5/login-and-auth-project",
+    demo: "https://github.com/AhmedGamal5/login-and-auth-project",
   },
   {
     id: 4,
     image: img4,
-    title: "Shiloh-website",
-    github: "https://github.com/AhmedGamal5/Shiloh-website",
-    demo: "https://shiloh-website.vercel.app/",
+    title: "Netflix-clone-website",
+    github: "https://github.com/AhmedGamal5/Netflixclone",
+    demo: "https://netflixclone-eb6w.vercel.app/",
+    note: "* Try to open it from a browser other than Google Chrome.",
   },
   {
     id: 5,
     image: img5,
-    title: "Dibruno-food-website",
-    github: "https://github.com/AhmedGamal5/Dibrunoproject",
-    demo: "https://dibrunoproject.vercel.app/",
-  }, 
+    title: "DOM-Bankist-Project",
+    github: "https://github.com/AhmedGamal5/DOM-Bankist-Project",
+    demo: "https://dom-bankist-project.vercel.app/",
+  },
   {
     id: 6,
     image: img6,
+    title: "Dibruno-food-website",
+    github: "https://github.com/AhmedGamal5/Dibrunoproject",
+    demo: "https://dibrunoproject.vercel.app/",
+  },
+  {
+    id: 7,
+    image: img7,
     title: "Authantication-Backend-Project",
     github: "https://github.com/AhmedGamal5/Authantication-project",
     demo: "https://github.com/AhmedGamal5/Authantication-project",
-  }
+  },
+  {
+    id: 8,
+    image: img8,
+    title: "Bankist-Project",
+    github: "https://github.com/AhmedGamal5/Bankist-Project",
+    demo: "https://bankist-project-three.vercel.app/",
+  },
+  {
+    id: 9,
+    image: img9,
+    title: "Mapty-project",
+    github: "https://github.com/AhmedGamal5/Mapty-project",
+    demo: "https://mapty-project-two.vercel.app/",
+  },
 ];
 
 const Portfolio = () => {
-  return(
-  <section id="portfolio">
-    <h5>My Recent Work</h5>
-    <h2>Portfolio</h2>
+  return (
+    <section id="portfolio">
+      <h5>My Recent Work</h5>
+      <h2>Portfolio</h2>
 
-    <div className="container portfolio_container">
-      {
-        data.map(({id, image, title, github, demo, note}) => {
-          return(
+      <div className="container portfolio_container">
+        {data.map(({ id, image, title, github, demo, note }) => {
+          return (
             <article key={id} className="portfolio_item">
               <div className="portfolio_item-image">
-                  <img src={image} alt={title}/>
+                <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
               <div className="portfolio_item-cta">
-                <a href={github} className="btn"  target='_blank' rel="noreferrer">Github</a>
-                <a href={demo} className="btn btn-primary" target='_blank' rel="noreferrer">Live Demo</a>
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
               </div>
               <h4 className="note">{note}</h4>
             </article>
-          )
-        })
-      }
-    </div>
-
-
-
-
-  </section>
-  ) 
+          );
+        })}
+      </div>
+    </section>
+  );
 };
 
 export default Portfolio;

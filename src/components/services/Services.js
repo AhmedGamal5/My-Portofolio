@@ -1,6 +1,20 @@
 import React from "react";
 import { BiCheck } from "react-icons/bi";
-import './Services.css'
+import "./Services.css";
+const uxServices = [
+  "Frontend Web Development.",
+  "Website Design.",
+  "Responsive Design.",
+  "Assistance with Web Projects.",
+  "Collaboration and Support.",
+];
+const webServices = [
+  "React Development.",
+  "Portfolio Websites.",
+  "Code Troubleshooting.",
+  "Customization and Modifications.",
+  "Collaboration and Support.",
+];
 
 const Services = () => {
   return (
@@ -14,26 +28,12 @@ const Services = () => {
             <h3>UI/UX Design</h3>
           </div>
           <ul className="service_list">
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Frontend Web Development.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Website Design.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Responsive Design.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Assistance with Web Projects.</p>
-            </li> 
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Collaboration and Support.</p>
-            </li>           
+            {uxServices.map((service, index) => (
+              <li key={index}>
+                <BiCheck className="service_list-icon" />
+                <p>{service}</p>
+              </li>
+            ))}
           </ul>
         </article>
 
@@ -42,26 +42,12 @@ const Services = () => {
             <h3>Web Development</h3>
           </div>
           <ul className="service_list">
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>React Development.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Portfolio Websites.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Code Troubleshooting.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Customization and Modifications.</p>
-            </li>
-            <li>
-              <BiCheck className="service_list-icon" />
-              <p>Collaboration and Support.</p>
-            </li>
+            {webServices.map((service, index) => (
+              <li key={index}>
+                <BiCheck className="service_list-icon" />
+                <p>{service}</p>
+              </li>
+            ))}
           </ul>
         </article>
       </div>

@@ -22,7 +22,7 @@ function App() {
         <Experience />
         <Services />
         <Portfolio />
-        // <Review />
+        {/* <Review /> */}
         <Contact />
         <Footer />
       </>

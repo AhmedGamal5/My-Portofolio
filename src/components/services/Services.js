@@ -2,18 +2,20 @@ import React from "react";
 import { BiCheck } from "react-icons/bi";
 import "./Services.css";
 const uxServices = [
-  "Frontend Web Development.",
-  "Website Design.",
-  "Responsive Design.",
-  "Assistance with Web Projects.",
-  "Collaboration and Support.",
+  "Wireframing & Prototyping",
+  "Visual Design",
+  "Responsive Design",
+  "UI Implementation",
 ];
 const webServices = [
-  "React Development.",
-  "Portfolio Websites.",
-  "Code Troubleshooting.",
-  "Customization and Modifications.",
-  "Collaboration and Support.",
+  "Custom Web Applications",
+  "Portfolio Websites",
+  "E-Commerce Solutions",
+  "Customization and Modifications",
+  "Responsive Websites",
+  "API Integration",
+  "Authentication Systems",
+  "WordPress Development",
 ];
 
 const Services = () => {

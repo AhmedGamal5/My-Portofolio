@@ -6,16 +6,26 @@ const frontendSkills = [
   { name: "CSS3", level: "Experienced" },
   { name: "JavaScript", level: "Experienced" },
   { name: "Bootstrap", level: "Experienced" },
-  { name: "Tailwind", level: "Intermediate" },
-  { name: "WordPress", level: "Experienced" },
+  { name: "Tailwind", level: "Experienced" },
+  { name: "SASS", level: "Experienced" },
   { name: "React", level: "Experienced" },
+  { name: "Angular", level: "Experienced" },
+  { name: "Vue Js", level: "Intermediate" },
+  { name: "Next Js", level: "Intermediate" },
   { name: "Redux", level: "Experienced" },
-  { name: "Git/GitHub", level: "Experienced" },
+  { name: "TypeScript", level: "Intermediate" },
+  { name: "WordPress", level: "Experienced" },
+  { name: "Figma", level: "Experienced" },
+  { name: "Photoshop", level: "Experienced" },
+  { name: "Illustrator", level: "Experienced" },
 ];
 const backendSkills = [
-  { name: "Node Js", level: "Intermediate" },
-  { name: "MongoDB", level: "Intermediate" },
-  { name: "Express Js", level: "Intermediate" },
+  { name: "Node Js", level: "Experienced" },
+  { name: "MongoDB", level: "Experienced" },
+  { name: "Express Js", level: "Experienced" },
+  { name: "Firebase", level: "Experienced" },
+  { name: "NestJS", level: "Intermediate" },
+  { name: "PostgreSQL", level: "Intermediate" },
 ];
 
 const Experience = () => {

@@ -10,31 +10,47 @@ import img6 from "../../pic/Dibruno.PNG";
 import img7 from "../../pic/Back1.PNG";
 import img8 from "../../pic/bankist-project.jpg";
 import img9 from "../../pic/mapty-project.jpg";
+import img10 from "../../pic/Furniro-website.PNG"
+import img11 from "../../pic/big motors.png";
 
 const data = [
   {
     id: 1,
+    image: img11,
+    title: "Big Motors Platform",
+    github: "https://github.com/AhmedGamal5/big-motors",
+    demo: "https://big-motors.vercel.app/",
+  },
+  {
+    id: 2,
+    image: img10,
+    title: "Furniture E-Commerce",
+    github: "https://github.com/AhmedGamal5/client-side",
+    demo: "https://furniroo-website.vercel.app/",
+  },
+  {
+    id: 3,
     image: img1,
     title: "Amazone-clone-website",
     github: "https://github.com/AhmedGamal5/Amazone-clone",
     demo: "https://amazone-clone-sage.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     image: img2,
     title: "Skin-Care-website",
     github: "https://github.com/AhmedGamal5/Skin-care-website",
     demo: "https://skin-care-website-alpha.vercel.app/",
   },
   {
-    id: 3,
+    id: 5,
     image: img3,
-    title: "Alogin-Auth-Backend-Project",
+    title: "login-Auth-Backend",
     github: "https://github.com/AhmedGamal5/login-and-auth-project",
     demo: "https://github.com/AhmedGamal5/login-and-auth-project",
   },
   {
-    id: 4,
+    id: 6,
     image: img4,
     title: "Netflix-clone-website",
     github: "https://github.com/AhmedGamal5/Netflixclone",
@@ -42,35 +58,35 @@ const data = [
     note: "* Try to open it from a browser other than Google Chrome.",
   },
   {
-    id: 5,
+    id: 7,
     image: img5,
     title: "DOM-Bankist-Project",
     github: "https://github.com/AhmedGamal5/DOM-Bankist-Project",
     demo: "https://dom-bankist-project.vercel.app/",
   },
   {
-    id: 6,
+    id: 8,
     image: img6,
     title: "Dibruno-food-website",
     github: "https://github.com/AhmedGamal5/Dibrunoproject",
     demo: "https://dibrunoproject.vercel.app/",
   },
   {
-    id: 7,
+    id: 9,
     image: img7,
     title: "Authantication-Backend-Project",
     github: "https://github.com/AhmedGamal5/Authantication-project",
     demo: "https://github.com/AhmedGamal5/Authantication-project",
   },
   {
-    id: 8,
+    id: 10,
     image: img8,
     title: "Bankist-Project",
     github: "https://github.com/AhmedGamal5/Bankist-Project",
     demo: "https://bankist-project-three.vercel.app/",
   },
   {
-    id: 9,
+    id: 11,
     image: img9,
     title: "Mapty-project",
     github: "https://github.com/AhmedGamal5/Mapty-project",

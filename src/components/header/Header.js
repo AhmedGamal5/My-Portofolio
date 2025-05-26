@@ -1,6 +1,6 @@
 import React from 'react'
 import Cv from '../cv/Cv';
-import profile from '../../pic/WhatsApp_Image_2023-07-24_at_01.44.04-removebg-preview.png'
+import profile from '../../pic/last-prof.jpg'
 import HeaderSections from '../headersections/HeaderSections';
 import './Header.css'
 

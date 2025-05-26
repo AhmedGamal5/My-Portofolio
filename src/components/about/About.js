@@ -36,17 +36,11 @@ const About = () => {
             </article>
           </div>
           <p>
-            I am a civil engineer with a passion for technology and
-            problem-solving. Over the years, I've had the privilege of working
-            on various construction projects, which have taught me valuable
-            skills in project management, critical thinking, and attention to
-            detail,However, as much as I enjoy civil engineering, I have
-            recently discovered a deep fascination for frontend development,
-            particularly using React. The way React allows for building
-            interactive and user-friendly interfaces is simply captivating. I've
-            been eagerly learning and honing my skills in web development, HTML,
-            CSS, and JavaScript, and I can't wait to dive even deeper into the
-            world of frontend development.
+           I'm Ahmed Gamal Saad, a passionate Front-End Developer dedicated to crafting intuitive, high-performance web experiences. With expertise in modern frameworks like React.js, Angular, and Next.js, I specialize in building dynamic, user-centric applications—from e-commerce platforms to secure authentication systems.
+
+My work focuses on merging clean design with robust functionality, whether it's optimizing WordPress sites, integrating seamless payment solutions like Stripe, or developing responsive interfaces with Framer Motion and Swiper.js. A lifelong learner, I thrive on tackling new challenges and applying cutting-edge technologies to solve real-world problems.
+
+When I'm not coding, you'll find me exploring the latest in UI trends or contributing to projects that push the boundaries of what’s possible on the web. Let’s build something amazing together!
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
